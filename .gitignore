@@ -1,0 +1,35 @@
+# Ignore volumes (dados persistentes)
+volumes/db/data/
+volumes/storage/
+volumes/logs/
+
+# Environment files com dados sensíveis
+.env.old
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# Docker
+.docker/
+
+# Backup
+*.backup
+*.bak
